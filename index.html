@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- displays site properly based on user's device -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./images/favicon-32x32.png"
+        />
+
+        <title>Frontend Mentor | QR code component</title>
+
+        <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+        <style>
+            body {
+              background-color: hsl(212, 45%, 89%);          
+              font-family: 'Outfit', sans-serif;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              height: 100vh;
+            }
+            .attribution {
+                font-size: 11px;
+                text-align: center;
+            }
+            .attribution a {
+                color: hsl(228, 45%, 44%);
+            }
+            .card {
+                width: 300px;
+                padding: 16px;
+                border: 1px solid #ddd;
+                border-radius: 16px;
+                text-align: center;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                background-color: #fff;
+            }
+
+            .card-content {
+                padding-right: 16px;
+                padding-left: 16px;
+            }
+
+            .qr-code {
+                width: 100%;
+                height: auto;
+                border-radius: 16px;
+            }
+
+            .title {
+                font-size: 20px;
+                margin: 20px 0;
+                font-weight: 700;
+                text-indent: 4px;
+                color: hsl(218, 44%, 22%);
+            }
+
+            .description {
+                font-size: 15px;
+                color: hsl(220, 15%, 55%);
+                font-weight: 400;
+                text-indent: 4px;
+                margin-bottom: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="card">
+            <img src="./images/image-qr-code.png" alt="QR Code" class="qr-code" />
+            <div class="card-content">
+              <h1 class="title">
+                  Improve your front-end skills by building projects
+              </h1>
+              <p class="description">
+                  Scan the QR code to visit Frontend Mentor to take your coding
+                  skills to the next level
+              </p>
+            </div>
+        </div>
+    </body>
+</html>
